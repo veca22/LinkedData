@@ -1,0 +1,24 @@
+@prefix xsd:   <http://w3.org/2001/XMLSchema#> .
+@prefix tot:   <https://www.tottenhamhotspur.com/tot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+tot:TottenhamHotspur  a  tot:FootballClub ;
+        foaf:homepage  "https://www.tottenhamhotspur.com/" .
+
+tot:TheFA  <rdfs:seeAlso>  "https://www.thefa.com/fa" .
+
+tot:Stadium  tot:stadium_capacity  "62303" ;
+        tot:stadium_name      "Tottenham Hotspur Stadium" .
+
+tot:PremierLeague  tot:country  "England" .
+
+tot:FootballClub  tot:city        "London" ;
+        tot:football_association  tot:TheFA ;
+        tot:founded               "5 September 1882" ;
+        tot:league                tot:PremierLeague ;
+        tot:name                  "Tottenham Hotspur" ;
+        tot:nick                  "Spurs" ;
+        tot:owner                 "ENIC International Ltd. (85.55%)" ;
+        tot:stadium               tot:Stadium ;
+        <rdfs:seeAlso>            "https://www.bucs.org.uk/bucs" .
