@@ -13,8 +13,7 @@ tot:Stadium  tot:stadium_capacity  "62303" ;
 
 tot:PremierLeague  tot:country  "England" .
 
-tot:FootballClub  rdfs:seeAlso    "https://www.bucs.org.uk/bucs" ;
-        tot:city                  "London" ;
+tot:FootballClub  tot:city        "London" ;
         tot:football_association  tot:TheFA ;
         tot:founded               "5 September 1882" ;
         tot:league                tot:PremierLeague ;
